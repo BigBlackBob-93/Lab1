@@ -1,0 +1,94 @@
+*{      
+     color: white;
+	 margin: 0;
+	 overflow: visible;
+	 line-height: normal;
+	 position: static;
+ }
+ 
+body{
+     font-family: Arial;
+}
+	
+.content{
+	 margin: 0px 750px 0px 750px;
+	 padding: 15px;
+     width: 470px;
+     height: 585px;
+     background-color: blue; 	 
+}
+.content h1{
+	 font-size: 2em; 
+}	
+.header{
+	 padding: 5px;
+	 text-align: center;
+	 font-family: Courier;
+     height: 20px;
+     background-color: green; 
+	 clear: both;
+}
+
+.footer{
+	 padding: 5px;
+	 text-align: center;
+     height: 20px;
+     background-color: green;
+	 clear: both;
+}
+
+div{padding-top: 15px;}
+
+.model{
+	 float: left;
+	 margin: 15px;
+	 margin-bottom: 20px;
+	 min-width: 80px;
+	 width: 50%;
+	 max-width: 90px;
+	 min-height: 80px;
+	 height: 50%;
+	 max-height: 90px;
+	 border: 3px solid white;
+	 border-radius: 15px 0px 20px 0px;
+	 box-sizing: border-box;
+}
+.tcenter{text-align: center;}
+
+p{padding: 5px;}
+
+table{
+	 display: table;
+	 border: 1px solid #ccc;
+	 border-spacing: 3px;
+	 border-collapse: separate;
+}
+
+td{
+     width: 40px;
+     height:30px;
+     border: solid 1px silver;
+     text-align:center;
+	 vertical-align: bottom;
+}
+
+span:first-child{color:red;}
+.children{}
+.children:last-child{
+	 text-decoration: line-through;
+	 margin-top:10px;
+}
+
+h2{word-spacing: 8px;}
+
+aside {float: right;}
+
+ul > li:nth-child(2n){
+	 color:#33E3FF;
+	 letter-spacing: 5px;
+}
+
+a:link    {color:red; text-decoration:underline}
+a:visited {color:red; text-decoration:underline}
+a:hover   {color:white; text-decoration:none}
+a:active  {color:white; text-decoration:none}
