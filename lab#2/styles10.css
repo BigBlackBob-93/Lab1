@@ -1,0 +1,11 @@
+#box1{
+	background: aquamarine;
+	float:left;
+	height: 100px;
+    width: 200px;
+	margin: 20px;
+}
+#box2{
+	background: bisque;
+	clear: both;
+}

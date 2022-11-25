@@ -1,0 +1,7 @@
+.content {
+     display: block;
+	 background: blue;
+	 color: white;
+	 margin: auto;
+	 max-width: 600px;
+}

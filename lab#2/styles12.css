@@ -1,0 +1,24 @@
+#static {
+  background: bisque;
+  width: 200px;
+  flex-shrink: 0;
+  height: max-content;
+}
+#content {
+     background-color: darkgray;
+	 margin-left:5px;
+	 margin-right:5px;
+}
+#all {
+  display: flex;
+  background: aqua;
+  border: 1px solid black;
+}
+@media screen and (orientation: portrait) {
+  #all{
+    flex-wrap: wrap;
+  }
+  #content{
+    margin-right:20%;
+  }
+}

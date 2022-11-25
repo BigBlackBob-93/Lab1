@@ -1,0 +1,37 @@
+*{      
+     color: black;
+	 margin: 0;
+	 line-height: 140%;
+ }
+#header {
+	background: #EAEAEA;
+	height: 80px;
+	padding:5px;
+}
+#left_column {
+	float: left;
+	width: 200px;
+	background: #C8FC98;
+	padding:10px;
+	padding-top:0;
+	margin-right:5px;
+}
+#footer {
+	clear:both;
+	text-align: center;
+	background: black;
+	height: 30px;
+}
+.bold-text{
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.main-text{
+	color: red;
+	font-style: italic;
+}
+a:link    {color:red; text-decoration:underline}
+a:visited {color:red; text-decoration:underline}
+a:hover   {color:white; text-decoration:none}
+a:active  {color:white; text-decoration:none}

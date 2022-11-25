@@ -1,0 +1,17 @@
+*{
+	color: black;
+}
+.first-block {
+     display: block;
+	 margin: auto;
+	 width: 500px;
+	 margin-top:20px;
+}
+.second-block {
+	 display: block;
+	 padding: 40px;
+	 border: 10px solid blue;
+	 margin: auto;
+	 width: 400px;
+	 margin-top:20px;
+}

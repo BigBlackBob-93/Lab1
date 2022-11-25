@@ -1,0 +1,132 @@
+a {
+	all: unset;
+}
+*{
+	background:#edeef0;
+	font-family: "Arial";
+}
+#main_header{
+	padding: 10px;
+    grid-area: Header;
+    background: #507299;
+    height:45%;	
+}
+nav{
+    grid-area: Nav;
+    width: 220px;
+	color:#2e5473;
+}
+nav ul{
+    list-style: none;
+    padding-right: 15px;
+	padding-left: 0px;
+}
+nav li {
+    padding: 10px;
+}
+nav li:hover{
+    background: #e1e5eb;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto auto 1.5fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "Header Header Header Header"
+        ". Nav Main ."
+        "Footer Footer Footer Footer";
+}
+main{
+    grid-area: Main;
+    width: 452px;
+    text-align: justify;
+    padding: 5px;
+}
+article{
+	width: 160px;
+	height: max-content;
+    position: fixed;
+	right: 400px;
+	top:50px;
+}
+.important{
+	background: white;
+	padding: 10px;
+	border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-top: 4%;
+	margin-bottom: 10%;
+}
+#important_header{
+	font-weight: bold;
+	background: white;
+	margin-top:10px;
+}
+#content_footer{
+	 box-sizing: border-box;
+	 border-top: 3px solid #d0d0d0;
+	 margin-top: 5px;
+	 color:#2e5473;
+	 background: white;
+     display: flex;
+	 justify-content: space-between;
+	 padding:5px 0 0 0;
+}
+#content_header{
+	  box-sizing: border-box;
+	  border-bottom: 3px solid #d0d0d0;
+	  margin-bottom: 5px;
+	  background: white;
+	  font-weight: bold;
+	  padding:0 0 5px 0;
+}
+.content{
+	 background: white;
+	 padding: 15px;
+     border: 1px solid #d0d0d0;
+     border-radius: 10px;
+	 margin-bottom: 4%;
+}
+.content::selection{
+  color: green;
+  background: #E0E4EA;
+}
+#main_footer{
+	padding: 5px;
+    grid-area: Footer;
+    background: white;
+    color: #2e5473;
+    text-align: center;
+}
+#logo{
+	 margin-left: 15%;
+	 background: #507299;
+}
+#content_picture{
+	box-sizing: content-box;
+    width: 100%;
+}
+@media screen and (max-width: 1630px) and (min-width: 0px) {
+ article{ display: none;}
+}
+@media screen and (orientation: portrait) {
+  li{
+	  display: inline;
+      line-height: 2.5; 	  
+  }
+  nav{
+	width:400px;
+  }
+body {
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr auto auto 1fr;
+    grid-template-areas: 
+        "Header Header Header"
+        ". Nav ."
+		". Main ."
+        "Footer Footer Footer";
+}
+}

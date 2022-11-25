@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content > p {
+  background: aquamarine;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+#footer {
+  background-color: bisque;
+}

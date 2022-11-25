@@ -1,0 +1,63 @@
+header {
+    padding: 10px;
+    font-size: 25px;
+    grid-area: Header;
+    background: green;
+    color: white;
+    text-align: center;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "Header Header Header Header"
+        ". Nav Main ."
+        "Footer Footer Footer Footer";
+    font-family: "Arial";
+}
+footer{
+    padding: 5px;
+    grid-area: Footer;
+    background: black;
+    color: white;
+    text-align: center;
+}
+nav{
+    grid-area: Nav;
+    width: 200px;
+    background: red;
+}
+a {
+    color: white;
+}
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-right: 30px;
+	padding-left: 50px;
+}
+li {
+    margin-top: 10px;
+}
+li:hover{
+    background: green;
+}
+main::selection{
+    color: white;
+    background: green;
+}
+main{
+    grid-area: Main;
+    width: auto;
+    max-width: 550px;
+    text-align: justify;
+    padding: 30px;
+}
+main::first-letter{
+    color: red;
+    font-size: larger;
+}

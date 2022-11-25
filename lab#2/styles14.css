@@ -1,0 +1,30 @@
+nav {
+  background: bisque;
+  max-width: 600px;
+  min-width:465px;
+  height: max-content;
+}
+#content {
+     background: darkgray;
+}
+#all {
+  display: flex;
+  background: aqua;
+  border: 1px solid black;
+}
+@media screen and (orientation: portrait) {
+  #all{
+    flex-wrap: wrap;
+  }
+  li{
+	  list-style-type:none;
+	  display: inline;
+  }
+  ul{
+    margin: 0;
+  }
+  nav{
+    margin: 15px 0 15px 0;
+	width:100%;
+  }
+}
