@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.main
+{
+    width: 900px;
+    margin: auto;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    width:900px
+}
+.box
+{
+    background: red;
+    border: 2px solid black;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.cat-box
+{
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    background: blue;
+    float: left;
+    height: 500px;
+}
+.dog-box
+{
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    background: green;
+    float: right;
+    height: 500px;
+}
+.pet-img
+{
+    width: 100%;
+    max-width: 600px;
+    height: 370px;
+}
